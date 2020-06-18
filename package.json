@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/index.js",
+    "start": "nodemon index.js",
     "build": "webpack --hide-modules"
   },
   "author": "Rkwebotron <rakeshgsekhar.fortune@gmail.com>",
@@ -21,7 +21,8 @@
     "request-promise": "^4.2.5",
     "lodash": "4.17.15",
     "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.4"
+    "cookie-parser": "^1.4.4",
+    "express-validator": "^6.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
