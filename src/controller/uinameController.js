@@ -41,3 +41,14 @@ exports.getNames = (req, res) => {
     names: responseList,
   });
 };
+
+exports.getRegions = (req, res) => {
+  let regionsNames = [];
+  data.forEach((regions) => {
+    regionsNames.push(regions.region);
+  });
+  res.json({
+    count: regionsNames.length,
+    regions: regionsNames,
+  });
+};
