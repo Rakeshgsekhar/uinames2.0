@@ -17,7 +17,7 @@ app.use(corsParser());
 /**Routes */
 app.use("/api/uinames", authRoutes);
 
-const port = 9009;
+const port = 9099;
 
 app.listen(port, () => {
   console.log(`app is running at ${port}`);
